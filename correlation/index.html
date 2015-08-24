@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Correlations explorer</title>
+		<script type="text/javascript" src="../common/js/d3.min.js"></script>
+		<script type="text/javascript" src="../common/js/statsTools.js"></script>
+		<link href="../common/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="styles.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<script>
+		function setup() {
+			tqe.config();
+			tqe.scatterplot();
+		}
+		window.onload = setup;
+		</script>
+
+
+		<div id="wrapper">
+			<div class="row" id="header">
+				<div class="col-md-12"></div>
+			</div>
+			<div class="row" id="content">
+				<div class="col-md-2" id="toolbox"></div>
+
+				<div class="col-md-8" id="chart"></div>
+
+				<div class="col-md-2" id="console">
+					<!-- generic ouput divs -->
+					<div id="output1"></div>
+					<div id="output2"></div>
+					<div id="output3"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+
+</html>

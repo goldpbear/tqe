@@ -1,0 +1,72 @@
+html, body {
+    height: 100%;
+}
+
+#wrapper {
+	height: 100%;
+	min-height: 100%;
+}
+
+#header {
+	height: 10%;
+	background-color: lightpink;
+}
+
+#content {
+	height: 90%;
+}
+
+#toolbox {
+	height: 100%;
+	background-color: lightblue;
+}
+
+#chart {
+	padding-left: 0;
+	padding-right: 0;
+	height: 100%;
+	background-color: salmon;
+}
+
+#console {
+	height: 100%;
+	background-color: lightyellow;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.scatterPoint {
+	cursor: pointer;
+}
+
+.scatterPoint:hover {
+	fill: red;
+}
+
+.addedScatterPoint {
+	fill: #BBBBBB;
+	z-index: 1;
+}
+
+.addedScatterPoint:hover {
+	fill: red;
+	cursor: pointer;
+}
+
+.hiddenScatterPoint {
+	display: none;
+}
+
+#output3 {
+	height: 300px;
+	width: 50px;
+	background-color: lightblue;
+
+}
+
+
